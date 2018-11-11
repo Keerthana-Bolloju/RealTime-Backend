@@ -1,0 +1,29 @@
+{
+  "name": "pingyou-group-app",
+  "version": "1.0.0",
+  "description": "This is an individual and group chat app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.23",
+    "mongoose": "^5.3.9",
+    "morgan": "^1.9.1",
+    "nodemailer": "^4.6.8",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "pino": "^5.8.0",
+    "redis": "^2.8.0",
+    "shortid": "^2.2.13",
+    "socket.io": "^2.1.1",
+    "uuid": "^3.3.2"
+  }
+}
